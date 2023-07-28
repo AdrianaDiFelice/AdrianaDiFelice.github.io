@@ -1,0 +1,26 @@
+h2 {
+    text-align: center;
+    padding: 60px
+}
+
+#accessories-div {
+display: grid;
+grid-template-columns: repeat(3, 250px);
+grid-auto-rows: 400px;
+justify-content: space-between;
+border-bottom: 2px solid grey;
+
+}
+
+.image-divs {
+    height: 200px;
+    width: 200px;
+    /* background-color: black; */
+    border: 2px solid rgb(39, 29, 29);
+}
+
+#clothing{ 
+    color: black;
+    font-size: larger;
+}
+

@@ -1,0 +1,161 @@
+/* CSS styles go here */
+body {
+   font-family: 'Urbanist', sans-serif;
+   background-color:#fff;
+   margin: 0;
+   padding: 0;     
+   text-align: center;   
+}
+
+#body1 {
+    background-color: #e6e6e6;
+}
+
+h1 {
+    color: #e6e6e6;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff3131;
+    color: #e6e6e6;
+    padding: 1rem;
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    padding-left: 25px;
+}
+
+.searchbar {
+    border-radius: : 4px;
+    padding: 4px;
+    border: 1px solid black;
+    background-color: #e6e6e6;
+
+}
+.searchbar.btn {
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.searchbar-btn:hover {
+    background-color: #e6e6e6;
+}
+
+nav {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+nav a {
+    color:#e6e6e6;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-weight:720;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+main {
+    padding: 2rem;
+    color: black;
+    background-image:url(/images/lambo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+
+
+}
+
+#imagediv {
+    background-image:url(/images/pexels-anna-shvets-4557647.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#imagediv-btn{
+    background-color: #ff3131;
+    color: #fff;
+    border-radius: 5px;
+    padding: 23px;
+    border: none;
+    font-size: 23px;
+
+}
+
+h2 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bolder;
+    font-style:normal;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    color:rgb(14, 28, 39);
+    background-image:url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.footer {
+    background-color: #ff3131;
+    color:#e6e6e6;
+    text-align: center;
+    padding: 1rem;
+}
+.icons {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    list-style: none ;
+    
+}
+
+.icons li a {
+    color: #e6e6e6;
+     
+}
+
+.icons li a img {
+    height: 24px; 
+}
+#footer-paragraph {
+ color: #e6e6e6 ;
+}
+
+#maintitle {
+    font-size: 50px;
+}
